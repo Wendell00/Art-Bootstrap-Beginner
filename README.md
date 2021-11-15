@@ -1,2 +1,2 @@
 # Bootstrap-Website
-Site criado usando a biblioteca do Bootstrap, feito para evoluir meu aprendizado.
+Sites criados usando a biblioteca do Bootstrap, feito para evoluir meu aprendizado.
