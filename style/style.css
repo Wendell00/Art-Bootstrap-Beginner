@@ -68,3 +68,56 @@ a, i{
     color: #C18696;
 }
 
+/* MAIN IMAGE */
+
+.main-image{
+    height: 400px;
+    background-image: url('../imgs/g_1.jpg');
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.main-image-info{
+    background-color: #fff;
+    padding: 25px;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+}
+
+/* Gallery */
+
+#img2{
+    background-image: url('../imgs/g_2.jpg');
+}
+
+#img3{
+    background-image: url('../imgs/g_3.jpg');
+}
+
+#img4{
+    background-image: url('../imgs/g_4.jpg');
+}
+
+#img5{
+    background-image: url('../imgs/g_5.jpg');
+}
+
+#img6{
+    background-image: url('../imgs/g_6.jpg');
+}
+
+#gallery-container h1{
+    text-align: center;
+}
+
+#gallery-container h1,
+#gallery-container .col-md-6,
+#gallery-container .col-12{
+    margin-bottom: 50px;
+}
+
+.small-image-container{
+    height: 250px;
+    margin-bottom: 20px;
+}
