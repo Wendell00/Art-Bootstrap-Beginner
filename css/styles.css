@@ -124,6 +124,9 @@ footer {
 footer i {
   font-size: 20px;
 }
+.btn-de{
+  margin-bottom: 20px;
+}
 
 #social-icons-container {
   padding: 25px;
@@ -142,3 +145,26 @@ a:hover i {
 }
 
 /*# sourceMappingURL=styles.css.map */
+
+
+[data-anime]{
+  transition: .6s;
+  opacity: 0;
+}
+
+[data-anime="top"]{
+  transform: translate3d(0, -90px, 0);
+}
+
+[data-anime="left"]{
+  transform: translate3d(-90px, 0, 0);
+}
+
+[data-anime="right"]{
+  transform: translate3d(+90px, 0, 0);
+}
+
+[data-anime].animate{
+  opacity: 1;
+  transform: translate3d(0,0,0);
+}
