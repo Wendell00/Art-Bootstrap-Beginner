@@ -34,8 +34,6 @@ function animeScroll(){
 
 animeScroll()
 
-if(target.length){
-    window.addEventListener('scroll',debounce(function(){
-        animeScroll();
-    }, 10))
-}
+window.addEventListener('scroll',function(){
+    animeScroll();
+})

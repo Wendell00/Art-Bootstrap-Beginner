@@ -2,6 +2,8 @@
 *
     color: #25282E
 
+html
+    scroll-behavior: smooth
 
 a i
     transition: .5s
@@ -23,6 +25,7 @@ a i
     color: white
     padding: 7px 18px
     border-radius: 0px
+    margin-bottom: 20px
 
 
 .btn:hover
@@ -145,3 +148,28 @@ footer p
 
 a:hover i
     color: #C1b696
+
+/* ANIMATION */ 
+
+[data-anime]
+    transition: .6s
+    opacity: 0
+
+
+[data-anime="top"]
+    transform: translate3d(0, -50px, 0)
+
+
+[data-anime="left"]
+    transform: translate3d(-30px, 0, 0)
+
+
+[data-anime="right"]
+    transform: translate3d(+30px, 0, 0)
+
+
+[data-anime].animate
+    opacity: 1
+    transform: translate3d(0,0,0)
+
+
