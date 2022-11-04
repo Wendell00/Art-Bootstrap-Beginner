@@ -13,12 +13,6 @@ const debounce = function(func,wait,immediate){
     };
 };
 
-
-
-
-
-
-
 const target = document.querySelectorAll("[data-anime]")
 
 const animationClass = 'animate';
